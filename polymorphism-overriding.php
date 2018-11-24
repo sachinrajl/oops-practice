@@ -9,14 +9,14 @@ class AA
 {
     public function output($args)
     {
-        echo "\n Parent - the parameter value is $args";
+        echo "Parent - the parameter value is " . $args . " <br/>";
     }
 }
 class BB extends AA
 {
     public function output($args)
     {
-        echo "\n Child - the parameter value is $args";
+        echo "Child - the parameter value is $args";
     }
 }
 $obj1 = new AA;
