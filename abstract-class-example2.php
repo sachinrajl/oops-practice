@@ -1,13 +1,13 @@
 <?php
 /**
  * Abstract class
- * Abstract classes are special because they can never be instantiated. 
+ * Abstract classes are special because they can never be instantiated.
  * Instead, you typically inherit a set of base functionality from them in a new class.
  * only abstract classes can hold abstract functions
- * 
- * WHEN USE : We use abstract classes when we want to commit the programmer (either oneself or someone else) to write a certain class method, 
- * but we are only sure about the name of the method, and not the details of how it should be written. 
- * 
+ *
+ * WHEN USE : We use abstract classes when we want to commit the programmer (either oneself or someone else) to write a certain class method,
+ * but we are only sure about the name of the method, and not the details of how it should be written.
+ *
  * @link https://php5-tutorial.com/classes/abstract-classes/
  */
 abstract class Animal
